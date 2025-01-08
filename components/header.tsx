@@ -1,10 +1,13 @@
-export function Header() {
-    return (
-        <header className="bg-white shadow">
-            <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-                <h1 className="text-lg font-semibold text-gray-900">Social Media Performance Chat</h1>
-            </div>
-        </header>
-    )
-}
+import { Bot, Brain } from "lucide-react";
+import Link from "next/link";
 
+export function Header() {
+  return (
+    <header className="bg-white shadow">
+      <Link className="flex items-center justify-center" href="/">
+        <Bot className="h-6 w-6" />
+        <span className="ml-2 text-2xl font-bold">Let&apos;s Analyze</span>
+      </Link>
+    </header>
+  );
+}
