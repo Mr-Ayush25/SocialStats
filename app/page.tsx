@@ -1,17 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import {
-  Brain,
-  TrendingUp,
-  Users,
-  Zap,
-  CheckCircle,
-  ArrowRight,
-} from "lucide-react";
+import { Brain, TrendingUp, Users, Zap, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { CanvasAnimation } from "@/components/CanvasAnimation";
 

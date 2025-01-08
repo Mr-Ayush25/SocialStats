@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { BarChart3, Brain, Info } from "lucide-react";
+import { Brain, Info } from "lucide-react";
 
 export function Sidebar() {
   return (

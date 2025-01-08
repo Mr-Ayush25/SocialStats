@@ -1,4 +1,4 @@
-import { Bot, Brain } from "lucide-react";
+import { Bot } from "lucide-react";
 import Link from "next/link";
 
 export function Header() {
